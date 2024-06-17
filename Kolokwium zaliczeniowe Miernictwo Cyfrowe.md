@@ -117,7 +117,7 @@ Niepewność standardowa (jak mamy $\Delta(x_1)$, $\Delta(x_2)$ ):
 Transformata fouriera: 
 	kąt = potęga e /  i
 - składowa stała $U_0$:  to co jest współczynnikiem $e^x$
-$$ U_0 = U(0) / J
+$$ U_0 = U(0) / J $$
 - amplituda: $$U_m = U_k \cdot \sqrt{2}$$ 
 - prawdziwa wartość częstotliwośći harmonicznej $f_k$: $$f_k = \frac{k\cdot f_z}{N}$$
 
