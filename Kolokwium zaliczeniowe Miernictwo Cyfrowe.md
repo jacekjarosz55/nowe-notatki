@@ -1,6 +1,5 @@
 **Błąd pomiaru** to różnica między wartością zmierzoną a wartością rzeczywistą wielkości mierzonej. Błędy pomiarowe mogą być systematyczne (spowodowane przez czynniki mające stały wpływ na wynik pomiaru) lub przypadkowe (wynikające z losowych fluktuacji w procesie pomiarowym).
-
-**Niepewność pomiaru** to parametr związany z wynikiem pomiaru, który charakteryzuje rozrzut wartości, które można rozsądnie przypisać wielkości mierzonej. Wyraża ona zaufanie do dokładności pomiaru i obejmuje wszelkie możliwe źródła błędów.
+ **Niepewność pomiaru** to parametr związany z wynikiem pomiaru, który charakteryzuje rozrzut wartości, które można rozsądnie przypisać wielkości mierzonej. Wyraża ona zaufanie do dokładności pomiaru i obejmuje wszelkie możliwe źródła błędów.
 
 
 ## Niepewność standardowa
@@ -105,3 +104,39 @@ Amplituda: wysokość fali
 Międzyszczytowa: między wartością maksymalną i minimalną, dla sinusoidy to dwukrotność amplitudy
 Wzmocnienie: proporcja między sygnałem wyjściowym a wejściowym
 Decybel:  20 log x
+
+
+## Zadania 
+
+Niepewność standardowa (jak mamy $\Delta(x_1)$, $\Delta(x_2)$ ):
+(przykład dla funkcji $y = x_1 + x_2$, dla $y = x_1 - x_2$ po prostu odejmujemy zamiast odjąć deltę)
+- $$u_s(y) = us(x_1 + x_2) = \frac{\Delta ap(x)}{\sqrt3} = \frac{\Delta(x_1) + \Delta(x_2)}{\sqrt3}$$
+- $$u_s(y) = us(x_1 - x_2) = \frac{\Delta ap(x)}{\sqrt3} = \frac{\Delta(x_1) - \Delta(x_2)}{\sqrt3}$$
+
+
+Transformata fouriera: 
+	kąt = potęga e /  i
+- składowa stała $U_0$:  to co jest współczynnikiem $e^x$
+$$ U_0 = U(0) / J
+- amplituda: $$U_m = U_k \cdot \sqrt{2}$$ 
+- prawdziwa wartość częstotliwośći harmonicznej $f_k$: $$f_k = \frac{k\cdot f_z}{N}$$
+
+
+Podwójne całkowanie:
+$$ U_x = \frac {N_2}{f_w} \cdot \frac {U_\text{ref}}{T_1}  $$
+gdzie: 
+- $U_x$ - napięcie zmierzone
+- $f_w$ - częstotliwość impulsów
+- $U_\text{ref}$ - napięcie referencyjne
+- $T_1$ - czas pierwszego całkowania
+- $N_2$ - ilość próbek drugiego całkowania
+
+
+
+niepewność aparaturowa:
+Po prostu liczysz to co masz napisane przez producenta
+
+Względny błąd zliczania $\delta(N)$:
+Dla czasu pomiaru $T_p$ i częstotliwości $f_x$, $N$ - ilość próbek:
+$$\delta(N) = \frac{\Delta(N)}{N} = \frac {1}{N} = \frac{1}{T_p \cdot f_x}$$
+
