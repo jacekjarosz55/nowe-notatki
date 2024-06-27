@@ -20,7 +20,31 @@
             }
           },
           {
-            "id": "0c94cace5f69881f",
+            "id": "4d2a9673ed7ae9a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kolokwium zaliczeniowe Miernictwo Cyfrowe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4dd84b48fca8e466",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kolos help.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49e1692e5753246e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +54,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b12859249ed8646",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0e273677eb24af40",
@@ -160,12 +191,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c94cace5f69881f",
+  "active": "49e1692e5753246e",
   "lastOpenFiles": [
     "ASK projekt.md",
     "Algorytmy i Struktury Danych - Kompresja.md",
-    "Welcome.md",
     "Kolokwium zaliczeniowe Miernictwo Cyfrowe.md",
-    "Kolos help.md"
+    "Kolos help.md",
+    "Welcome.md"
   ]
 }

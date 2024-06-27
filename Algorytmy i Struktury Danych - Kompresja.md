@@ -119,7 +119,6 @@ Dla tekstu: "AAABBBCAAABCDAAAAAEBEBBCEDDDAEFF"
 | AAAAA<mark>B</mark> | <mark>BB</mark>CA | AABCDAAAAAEBEBBCEDDDAEFF     | (5, 2, C) |
 | <mark>AA</mark>BBBC | <mark>AA</mark>AB | CDAAAAAEBEBBCEDDDAEFF        | (0, 2, A) |
 | BBCAAA              | BCDA              | AAAAEBEBBCEDDDAEFF           |           |
-|                     |                   |                              |           |
 I tak dalej.
 
 Wynik: A 0 3 B 5 2 C 0 2 A....
@@ -149,7 +148,6 @@ Dla tekstu: "AAABBBCAAABCDAAAAAEBEBBCEDDDAEFF" wynik to "A03B52C02A12D03A21E00B4
 | DA   | (8,A)  | 15,DA                  |                                                                      |
 | EF   | (13,F) | 16,EF                  |                                                                      |
 | F    | (0,F)  | 17,F                   |                                                                      |
-|      |        |                        |                                                                      |
 Wynik: 0A1A0B3B0C2A3C0D6A1E3E4C0E8D8A13F0F
 Uwaga: nie musimy zapisywać słownika, podczas dekompresji odtwarzamy pierwotny słownik.
 
